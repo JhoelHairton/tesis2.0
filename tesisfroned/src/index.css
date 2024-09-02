@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(resources/portada-p.png) !important;
+  /*background: linear-gradient(135deg, #a0a9c2, #3f75e9, #032e57) !important;*/
+  color: rgb(0, 0, 0) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.techStack{
+  color: rgb(20, 20, 20);
+  border: 3px solid #dca50e;
+  padding: 0.5rem 2rem;
+  background-color: rgba(197, 215, 29, 0.6); /* 50% transparent red background */
+
+}
+.botonAsignar{
+  background-image: linear-gradient(150deg, #8278e8, #191670);
+  color: rgb(255, 255, 255) !important;
+}
+
+.cardd{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(170, 239, 32, 0.907) 0px 0px 20px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+#basic-button{
+  color: black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
